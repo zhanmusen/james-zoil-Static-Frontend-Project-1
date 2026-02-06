@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midnight Echo | Official Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website for Midnight Echo, an indie rock band available for live shows, weddings, and corporate events.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">Midnight Echo</a>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shows.html">Shows & Booking</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-content">
+        <h1 id="hero-heading">Indie rock for unforgettable nights</h1>
+        <p>Midnight Echo is a four piece indie rock band based in London, performing high energy sets for clubs, weddings, and corporate events.</p>
+        <a class="btn primary-btn" href="shows.html#booking">Book Midnight Echo</a>
+      </div>
+      <figure class="hero-image">
+        <img src="assets/images/band-hero.jpg" alt="Midnight Echo performing live on stage">
+      </figure>
+    </section>
+
+    <section class="section" aria-labelledby="music-heading">
+      <h2 id="music-heading">Listen to Midnight Echo</h2>
+      <p>Discover a selection of live recordings and studio tracks that showcase the band’s sound.</p>
+      <div class="media-grid">
+        <article class="media-card">
+          <h3>Track: City Lights</h3>
+          <p>Up tempo indie rock anthem, perfect for festival stages and late night dance floors.</p>
+          <audio controls>
+            <source src="assets/audio/city-lights.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </article>
+
+        <article class="media-card">
+          <h3>Track: Echoes at Midnight</h3>
+          <p>Atmospheric ballad that builds to a powerful finale, ideal for first dances and closing sets.</p>
+          <audio controls>
+            <source src="assets/audio/echoes-at-midnight.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </article>
+
+        <article class="media-card">
+          <h3>Live highlight video</h3>
+          <p>See Midnight Echo in action at a recent London show.</p>
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Midnight Echo live performance" loading="lazy"></iframe>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="highlights-heading">
+      <h2 id="highlights-heading">Why book Midnight Echo</h2>
+      <div class="highlights-grid">
+        <article class="highlight-card">
+          <h3>Tailored setlists</h3>
+          <p>The band works with you to build a setlist that matches your event, from indie classics to modern hits.</p>
+        </article>
+        <article class="highlight-card">
+          <h3>Professional equipment</h3>
+          <p>Full sound and lighting setup provided, with experienced engineers to ensure a smooth show.</p>
+        </article>
+        <article class="highlight-card">
+          <h3>Flexible bookings</h3>
+          <p>Available for weddings, corporate events, private parties, and venue residencies across the UK.</p>
+        </article>
+      </div>
+      <a class="btn secondary-btn" href="shows.html">View shows and booking details</a>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-main">
+      <div class="footer-column">
+        <h2 class="footer-heading">Contact</h2>
+        <p>Email: <a href="mailto:booking@midnightecho.band">booking@midnightecho.band</a></p>
+        <p>Based in London, performing across the UK.</p>
+      </div>
+      <div class="footer-column">
+        <h2 class="footer-heading">Follow Midnight Echo</h2>
+        <ul class="social-links">
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://spotify.com" target="_blank" rel="noopener">Spotify</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h2 class="footer-heading">Newsletter</h2>
+        <p>Sign up to receive show announcements and new releases.</p>
+        <form class="newsletter-form" action="#" method="post">
+          <label for="newsletter-email">Email address</label>
+          <input id="newsletter-email" type="email" name="email" required>
+          <button type="submit" class="btn primary-btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <p class="footer-copy">© 2026 Midnight Echo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
